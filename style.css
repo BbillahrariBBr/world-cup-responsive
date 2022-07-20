@@ -8,3 +8,53 @@ body {
     font-family: 'Poppins', sans-serif;
 
 }
+
+/* Top Part style */
+.top {}
+
+.top-container {
+    background-color: #161616;
+    border-radius: 30px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 50px;
+    display: flex;
+
+}
+
+.top-container-right,
+.top-container-left {
+    padding: 20px;
+    margin-right: 24px;
+    width: 50%;
+}
+
+.top-container-right h1,
+p,
+button {
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFFFFF;
+}
+
+.top-container-right p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.top-container-right button {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    background-color: #DD0000;
+    border-radius: 5px;
+    padding: 16px 25px;
+    border: none;
+}
+
+.top-container-left {}
+
+.top-container-left img {
+    margin-right: 20px;
+    width: 100%;
+}
