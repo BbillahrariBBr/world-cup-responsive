@@ -52,7 +52,9 @@ button {
     border: none;
 }
 
-.top-container-left {}
+.top-container-left {
+    margin-top: 230px;
+}
 
 .top-container-left img {
     margin-right: 20px;
