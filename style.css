@@ -306,9 +306,110 @@ footer hr {
 /* responsive */
 
 @media screen and (max-width: 576px) {
-    .top-container {
-        background-color: #DD0000;
+
+    /* common style */
+    main {
+        /* width: 1024px; */
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+
     }
+
+    /* Top Part style */
+    .top {
+        margin-bottom: 30px;
+    }
+
+    .top-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .top-container-right,
+    .top-container-left {
+        margin-right: 15px;
+        margin-left: 10px;
+        width: 70%;
+
+    }
+
+    .top-container-left {
+        margin-top: 20px;
+    }
+
+    .top-container-right h1,
+    p,
+    button {
+        font-size: 33px;
+
+    }
+
+    /* mid part  */
+    .mid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        column-gap: 10px;
+    }
+
+    aside {
+        justify-content: center;
+    }
+
+    .aside-menu {
+
+        background-color: #FFFFFF;
+
+    }
+
+    .aside-menu aside a {
+        border: 1px solid #b9b9b9;
+    }
+
+
+
+    .blogs {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+
+
+    .view-tablet button {
+        display: none;
+
+
+    }
+
+    /* upcoming match */
+    /* Matchs part */
+    .matches {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    /* footer */
+    .footer-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-icon-social {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-icon-social a {
+        margin: 5px;
+    }
+
 }
 
 /* tablet */
@@ -332,7 +433,6 @@ footer hr {
     }
 
     .top-container {
-        background-color: #161616;
         align-items: center;
         justify-content: center;
     }
@@ -385,7 +485,6 @@ footer hr {
     }
 
     .aside-menu aside a {
-
         border: 1px solid #b9b9b9;
     }
 
