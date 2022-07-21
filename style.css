@@ -66,6 +66,10 @@ button {
     border: none;
 }
 
+.top-container-right button:hover {
+    transform: translateY(-10px);
+}
+
 .top-container-left {
     margin-top: 230px;
 }
