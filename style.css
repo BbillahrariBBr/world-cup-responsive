@@ -269,6 +269,8 @@ footer hr {
 
 .match-image {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .match-image img {
@@ -297,3 +299,12 @@ footer hr {
     color: #4d4d4d;
     text-align: center;
 }
+
+
+/* responsive */
+
+/* tablet */
+@media screen and(min-width: 577px) and(max-width: 992px) {}
+
+/* mobile */
+@media screen and(max-width: 576px) {}
