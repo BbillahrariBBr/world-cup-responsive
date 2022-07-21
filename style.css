@@ -7,17 +7,26 @@ body {
     background-color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
 
+
+}
+
+main {
+    /* width: 1024px; */
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 30px;
+
+
 }
 
 /* Top Part style */
-.top {}
+.top {
+    margin-bottom: 100px;
+}
 
 .top-container {
     background-color: #161616;
     border-radius: 30px;
-    margin-left: 140px;
-    margin-right: 140px;
-    margin-top: 50px;
     display: flex;
 
 }
@@ -26,6 +35,7 @@ body {
 .top-container-left {
     padding: 20px;
     margin-right: 24px;
+    margin-left: 10px;
     width: 50%;
 }
 
@@ -60,3 +70,36 @@ button {
     margin-right: 20px;
     width: 100%;
 }
+
+/* mid part  */
+.mid {}
+
+.aside-menu {
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+}
+
+.aside-menu aside {
+    padding: 20px;
+}
+
+.aside-menu aside a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #161616;
+    background-color: #FFFFFF;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+
+.active-aside-menu {}
+
+.blogs {}
+
+.blog {}
